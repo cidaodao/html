@@ -1,14 +1,81 @@
-html {
-    background-color: green;
-    font-size: 20px;
-  }
+
+body { 
   
-  ul {
-    background: red;
-    padding: 10px;
-    border: 1px solid black;
+     background-attachment: fixed;
+    max-width: 1000px;
+    margin:0 auto;
+    text-align: center;
+    background-image: url(背景2.jpg);
+    background-position: center;
+    background-repeat: repeat-x;
+   
   }
+  header{
+    font-size: 60px;
+    border: 10px;
+  }
+  header img{
+    
+     /* width: 100px; */
+    /* position: absolute; */
+    right: 32.5px;
+    top: 0px;
+   
+  }
+  .h60{
+    background-image: url(转红圈60.gif);
+    background-repeat: no-repeat;
+  }
+  h2{
+font-size: 30px;
+text-align: center;
+background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+padding-left: 10px;
+width: 50px;
+
+     }
+
+
+  p {
+color: #00ffff;
+/* width: 500px; */
+text-align: center;
+font-size: 27px;
+padding: 50px;
+}
+
+div.h{
+  background-image: url(自我介绍.png) ;
+  background-repeat: no-repeat;
+  background-position:  top 5px right 10px; 
+  background-size: 950px ;
+}
+div.x{
+  background-image: url(兴趣爱好.png) ;
+  background-repeat: no-repeat;
+  background-position:  top 20px left 10px;
+  background-size: 950px ;}
+main{
+  background-image: url(未标题-1.png);
+  border-radius:1%;
+    }
+
+/* div.a60{
+  background-image: url(转红圈60.gif);
+} */
+li{
+    padding-left: 0px;
   
-  li {
-    margin-left: 20px;
-  }
+}
+span{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: blue;
+  font-style: oblique;
+  font-size: 30px;
+}
+span.hynk{
+  color: #00ffff;
+  font-family:  bold  cursive;
+  font-size: 30px;
+}
