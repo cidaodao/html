@@ -1,0 +1,90 @@
+#zl{
+    border: 0px;
+    font-size: 20px;
+    /* font-family:  x-locale-heading-primary,zillaslab,Palatino,"Palatino Linotype",x-locale-heading-secondary,serif; */
+    line-height: 1;
+    text-align: center;
+    background: #ffe7e8;
+    border-color: #fcff60;
+    border-left-width: 5px;
+    border-left-style: solid;
+    box-sizing: border-box;
+   max-width: 42rem;
+   overflow: hidden;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-weight: 300;
+   
+}
+#z{
+    border: 0px;
+    font-size: 20px;
+    line-height: 1;
+    text-align: center;
+    background: #69f164e1;
+    border-color: #fcff60;
+    border-left-width: 5px;
+    border-left-style: solid;
+    box-sizing: border-box;
+   max-width: 42rem;
+   overflow: hidden;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-weight: 300;
+   
+}
+#zz{background-attachment: fixed;
+    max-width: 500px;
+    margin:0 auto;
+    text-align: center;
+    /* background-image: url(未标题-1.png);
+    background-position: center;
+    background-repeat: repeat-x;} */}
+#js{
+    font-style:oblique;
+font-size: 50px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: #eee;
+padding: 8px 16px;
+border-bottom: solid 1px #dce3e5;
+border-top: solid 1px #dce3e5;
+box-sizing: border-box;
+width: 75%;
+position:relative;
+left: 240px;
+
+}
+main{
+    background-color: #ffe7e8;
+    opacity: 70%;
+    
+    /* background-image: url(未标题-1.png); */
+    border-radius:1%;
+    max-width: 42rem;
+    margin-left: 99px;
+}
+#ml{float: right;margin-top: -172px;margin-right: 50px;}
+span{
+    width: 200px;
+    height: 200px;
+  font-size: 20px;
+   text-align: center;
+   color: #15aeeb;
+}
+* {
+    font-family: "Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+  
+}
+body{background:url(2043883786_preview_1jpg.jpg) ;}
+a:hover {
+    color: #ee4a18;
+    
+}
+#ml:hover{background-color: #e4d01e;}
+#zl:hover{background-color: #e4d01e;}
+#z:hover{background-color: #e4d01e;}
+
+
