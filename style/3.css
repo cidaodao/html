@@ -59,20 +59,25 @@ left: 240px;
 }
 main{
     background-color: #ffe7e8;
+    margin-top: 30px;
     opacity: 70%;
     
     /* background-image: url(未标题-1.png); */
     border-radius:1%;
     max-width: 42rem;
-    margin-left: 99px;
+    margin-left: 400px;
 }
-#ml{float: right;margin-top: -172px;margin-right: 50px;}
+#ml{float: left;margin-top: 0px;
+    margin-left: 400px;
+    margin-top: 30px;
+    color: #ffffff;
+    background-color: #1ac3f7;opacity: 80%;}
 span{
     width: 200px;
     height: 200px;
   font-size: 20px;
    text-align: center;
-   color: #15aeeb;
+   color: #ff0000;
 }
 * {
     font-family: "Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
@@ -81,10 +86,17 @@ span{
 body{background:url(2043883786_preview_1jpg.jpg) ;}
 a:hover {
     color: #ee4a18;
-    
+    color: #ffffff;
 }
-#ml:hover{background-color: #e4d01e;}
+#ml:hover{
+    background-color: #e4d01e;
+    color: #000000;
+
+}
 #zl:hover{background-color: #e4d01e;}
 #z:hover{background-color: #e4d01e;}
+#yiyi{
+    float: left;width: 200px;
+}
 
 
