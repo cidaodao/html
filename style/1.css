@@ -1,10 +1,54 @@
-.speciwal {
-    color: orange;
-    font-weight: bold;
-  }
-  li.speciawl{
-      color: blue;
-  }
-  div{
-      display: flex;
-  }
+#lun-bo {
+    width: 1400px;
+    /*单张图片的宽度*/
+    height: 600px;
+    /*单张图片所占据的高度*/
+    margin: auto;
+    /*让其居中显示*/
+    overflow: hidden;
+    /*由于每张图片的长度超出浏览器的单个窗口 而我们的这个效果就需要用到隐藏的属性,只留下一张图片放在开始就好了*/
+    position: absolute;
+    /*让其位置固定,不会由于后面的操作导致出现文本流错乱的效果*/
+    top: 140px;
+    /*定位中使用到的位置移动的距离
+有top left right bottom
+当然我这里只是使用了两个就好了
+	*/
+    left: 250px;
+    z-index: -2;
+    /*这是层级 由于使用了定位 会导致一定的效果 这里的数据根据实际情况自行可以进行修改*/
+}
+
+#lun-bo>ul {
+    width: 11520px;
+    /*x张图片总共的宽度*/
+    position: relative;
+    /*让这里承担了一个父级定位*/
+    animation: idea 300s linear infinite;
+    /*最后让其动起来的指令
+	idea是名称 当然有什么好听的名字都可以使用  48s是总共一次播放的时间 linear 是匀速播放  infinite这里是无限循环播放
+	*/
+}
+
+#lun-bo>ul li {
+    float: left;
+    /*让其所有的图片在一条水平线上显示*/
+    list-style: none;
+    /*隐藏或消除列表的图标*/
+    background-size: contain;
+    /*设置图片的大小*/
+}
+
+@keyframes idea {
+/*重点啦  
+idea是我们在上面引用的名称 这里是要调用的
+*/
+    0% {
+        transform: translateX(0);
+        /*让其初始时不移动*/
+    }
+    100% {
+        transform: translateX(-9600px);
+        /*最后移动的时候是五张图片的宽度*/
+    }
+}
